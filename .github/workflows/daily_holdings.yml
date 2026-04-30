@@ -1,0 +1,51 @@
+name: daily-holdings
+
+on:
+  schedule:
+    # 11:00 UTC = 07:00 EDT (7 AM ET, before market open)
+    # Note: in winter (EST), this becomes 06:00 ET. Acceptable.
+    - cron: '0 11 * * *'
+  workflow_dispatch: {}  # allow manual trigger from Actions tab
+
+permissions:
+  contents: write  # commit data/LATEST/ back to repo
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch ARK holdings + parse universe
+        run: |
+          mkdir -p data/LATEST/holdings
+          python scripts/fetch_holdings.py data/LATEST/holdings/
+          python scripts/parse_holdings.py data/LATEST/holdings/*.csv > data/LATEST/universe.json
+          # Write metadata for the routine to read
+          {
+            echo "{"
+            echo "  \"fetched_at\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\","
+            echo "  \"date_label\": \"$(TZ=America/New_York date +%Y-%m-%d)\","
+            echo "  \"csv_count\": $(ls data/LATEST/holdings/*.csv | wc -l),"
+            echo "  \"ticker_count\": $(python -c 'import json; print(len(json.load(open(\"data/LATEST/universe.json\"))))')"
+            echo "}"
+          } > data/LATEST/_fetched_at.json
+          cat data/LATEST/_fetched_at.json
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/LATEST/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Daily holdings refresh $(TZ=America/New_York date +%Y-%m-%d)"
+            git push
+          fi
