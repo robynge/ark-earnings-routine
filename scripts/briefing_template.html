@@ -1,0 +1,115 @@
+<!--
+  Briefing HTML template. Claude fills in {{...}} placeholders and pipes
+  through render_html_to_pdf.py. Same Helvetica/ARK design as transcript PDF.
+
+  Required placeholders:
+    {{TICKER}}, {{COMPANY}}, {{YEAR}}, {{QUARTER}}, {{CONF_DATE}},
+    {{ARK_FUND_LINE}}, {{NUMBERS_TABLE_HTML}}, {{THE_PRINT_HTML}},
+    {{CROSS_QUARTER_HTML}}, {{QA_SHORT_HTML}}, {{GUIDE_GAP_HTML}},
+    {{WIRE_SKIP_HTML}}, {{MACRO_HTML}}, {{POSITION_HTML}}
+-->
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>{{TICKER}} FY{{YEAR}} Q{{QUARTER}} — ARK Earnings Briefing</title>
+<style>
+@page {
+  size: Letter; margin: 0.55in 0.6in 0.7in 0.6in;
+  @bottom-left   { content: "ARK INVEST EARNINGS BRIEFING"; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 7.5pt; letter-spacing: 0.12em; color: #888; }
+  @bottom-center { content: "{{TICKER}} · FY{{YEAR}} Q{{QUARTER}} · {{CONF_DATE}}"; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 7.5pt; letter-spacing: 0.12em; color: #888; }
+  @bottom-right  { content: counter(page) " / " counter(pages); font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 7.5pt; letter-spacing: 0.12em; color: #888; }
+}
+*{box-sizing:border-box}
+html,body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:9.5pt;line-height:1.45;color:#111;margin:0;padding:0}
+strong{font-weight:600;color:#0a2540}
+em{font-style:italic}
+.masthead{display:flex;justify-content:space-between;align-items:flex-end;padding-bottom:10pt;margin-bottom:8pt;border-bottom:2.2pt solid #0a2540}
+.mast-eyebrow{font-size:7.8pt;letter-spacing:0.22em;color:#6b7280;font-weight:500;margin-bottom:4pt;text-transform:uppercase}
+.mast-title{font-size:30pt;font-weight:700;letter-spacing:-0.025em;color:#0a2540;margin:0;line-height:0.95}
+.mast-right{text-align:right;padding-bottom:3pt}
+.mast-date{font-size:11pt;font-weight:500;color:#0a2540;margin-bottom:3pt}
+.mast-coverage{font-size:8pt;color:#6b7280}
+.ticker-header{display:flex;align-items:baseline;gap:12pt;border-top:0.75pt solid #0a2540;padding-top:7pt;margin-bottom:4pt}
+.ticker-id{font-size:20pt;font-weight:700;letter-spacing:-0.02em;color:#0a2540;line-height:1}
+.ticker-name{font-size:10pt;color:#6b7280;font-weight:500}
+.ticker-meta{margin-left:auto;text-align:right;font-size:8pt;color:#6b7280}
+.ticker-meta .funds{font-weight:600;color:#0a2540}
+h2.section{font-size:8pt;letter-spacing:0.06em;color:#0a2540;font-weight:700;text-transform:uppercase;margin:10pt 0 4pt;padding-bottom:2pt;border-bottom:0.4pt solid #e5e7eb}
+table.kpi{width:100%;border-collapse:collapse;margin:4pt 0 4pt;font-size:8.5pt}
+table.kpi th,table.kpi td{text-align:left;padding:4pt 6pt;border-bottom:0.4pt solid #e5e7eb}
+table.kpi th{font-size:7.5pt;letter-spacing:0.04em;text-transform:uppercase;color:#6b7280;font-weight:600;background:#fafafa}
+table.kpi td.beat{color:#1f7a4c;font-weight:600}
+table.kpi td.miss{color:#b3261e;font-weight:600}
+table.kpi td.flat{color:#6b7280;font-weight:500}
+.qpair{display:grid;grid-template-columns:1fr 12pt 1fr;gap:0;margin:5pt 0}
+.qcell{padding:7pt 9pt;font-size:8.5pt;line-height:1.45;border-radius:2pt}
+.qcell.prior{background:#eef2f6;color:#0a2540}
+.qcell.curr{background:#fdf2e9;color:#7a3e00}
+.qarrow{display:flex;align-items:center;justify-content:center;font-size:11pt;color:#0a2540;font-weight:600}
+.qcell-label{font-size:7pt;letter-spacing:0.12em;text-transform:uppercase;font-weight:600;opacity:0.7;margin-bottom:4pt}
+.qcell-quote{font-family:"SF Mono",Menlo,Monaco,monospace;font-size:8pt;line-height:1.45}
+.gap{background:#fef3c7;border:0.5pt solid #fde68a;padding:8pt 10pt;border-radius:2pt;margin:4pt 0 6pt;font-size:8.5pt;line-height:1.5}
+.gap-label{font-size:7pt;letter-spacing:0.12em;text-transform:uppercase;font-weight:700;color:#92400e;margin-bottom:3pt}
+.qa-item{margin:5pt 0 6pt;padding:6pt 9pt;background:#fafafa;border-left:2.5pt solid #b3261e}
+.qa-item.partial{border-left-color:#d97706}
+.qa-item.direct{border-left-color:#1f7a4c}
+.qa-question{font-size:8.5pt;color:#0a2540;font-weight:600;margin-bottom:3pt}
+.qa-response{font-size:8.3pt;color:#333;line-height:1.5}
+.qa-read{display:inline-block;font-size:7pt;letter-spacing:0.08em;text-transform:uppercase;font-weight:700;padding:1pt 6pt;border-radius:2pt;margin-left:6pt}
+.qa-read.evasive{background:#fee2e2;color:#b3261e}
+.qa-read.partial{background:#fef3c7;color:#92400e}
+.qa-read.direct{background:#d1fae5;color:#065f46}
+.position{background:#0a2540;color:#fff;padding:9pt 11pt;border-radius:2pt;margin-top:8pt}
+.position-label{font-size:7pt;letter-spacing:0.12em;text-transform:uppercase;font-weight:700;color:#94a3b8;margin-bottom:4pt}
+.position-line{font-size:9.5pt;margin-bottom:5pt}
+.position-line strong{color:#fff}
+.tag{display:inline-block;padding:1pt 7pt;border-radius:2pt;font-size:7.5pt;letter-spacing:0.08em;font-weight:700;text-transform:uppercase;margin-right:6pt}
+.tag.unchanged{background:#6b7280;color:#fff}
+.tag.weakens{background:#b3261e;color:#fff}
+.tag.strengthens{background:#1f7a4c;color:#fff}
+</style>
+</head><body>
+
+<header class="masthead">
+  <div class="mast-left">
+    <div class="mast-eyebrow">ARK Invest · Earnings Briefing</div>
+    <h1 class="mast-title">Today in Earnings</h1>
+  </div>
+  <div class="mast-right">
+    <div class="mast-eyebrow" style="margin-bottom:0">Daily</div>
+    <div class="mast-date">{{CONF_DATE}}</div>
+    <div class="mast-coverage">{{TICKER}} · ARK funds: {{ARK_FUND_LINE}}</div>
+  </div>
+</header>
+
+<div class="ticker-header">
+  <div class="ticker-id">{{TICKER}}</div>
+  <div class="ticker-name">{{COMPANY}} · FY{{YEAR}} Q{{QUARTER}} · call {{CONF_DATE}}</div>
+  <div class="ticker-meta"><div class="funds">{{ARK_FUND_LINE}}</div></div>
+</div>
+
+<h2 class="section">Numbers vs. guide</h2>
+{{NUMBERS_TABLE_HTML}}
+
+<h2 class="section">The print</h2>
+{{THE_PRINT_HTML}}
+
+<h2 class="section">Cross-quarter shift</h2>
+{{CROSS_QUARTER_HTML}}
+
+<h2 class="section">Where the answers got short</h2>
+{{QA_SHORT_HTML}}
+
+<h2 class="section">Guide wording vs guide numbers</h2>
+{{GUIDE_GAP_HTML}}
+
+<h2 class="section">One thing the wire will skip</h2>
+{{WIRE_SKIP_HTML}}
+
+<h2 class="section">Macro context</h2>
+{{MACRO_HTML}}
+
+<div class="position">
+{{POSITION_HTML}}
+</div>
+
+</body></html>
