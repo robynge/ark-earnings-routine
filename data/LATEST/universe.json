@@ -1,0 +1,1750 @@
+{
+  "BTC": {
+    "ticker": "BTC",
+    "company": "BITCOIN",
+    "funds": {
+      "ARKB": "100.00%"
+    }
+  },
+  "ARKK": {
+    "ticker": "ARKK",
+    "company": "ARK INNOVATION ETF",
+    "funds": {
+      "ARKD": "98.66%",
+      "ARKT": "93.00%"
+    }
+  },
+  "SHOP": {
+    "ticker": "SHOP",
+    "company": "SHOPIFY INC - CLASS A",
+    "funds": {
+      "ARKF": "9.65%",
+      "ARKK": "4.39%",
+      "ARKSX": "0.37%",
+      "ARKUX": "0.37%",
+      "ARKVX": "0.37%",
+      "ARKW": "4.57%"
+    }
+  },
+  "COIN": {
+    "ticker": "COIN",
+    "company": "COINBASE GLOBAL INC -CLASS A",
+    "funds": {
+      "ARKF": "5.67%",
+      "ARKK": "4.35%",
+      "ARKSX": "0.37%",
+      "ARKUX": "0.37%",
+      "ARKVX": "0.37%",
+      "ARKW": "3.88%"
+    }
+  },
+  "HOOD": {
+    "ticker": "HOOD",
+    "company": "ROBINHOOD MARKETS INC - A",
+    "funds": {
+      "ARKF": "5.05%",
+      "ARKK": "4.23%",
+      "ARKSX": "0.57%",
+      "ARKUX": "0.57%",
+      "ARKVX": "0.57%",
+      "ARKW": "4.98%"
+    }
+  },
+  "PLTR": {
+    "ticker": "PLTR",
+    "company": "PALANTIR TECHNOLOGIES INC-A",
+    "funds": {
+      "ARKF": "4.53%",
+      "ARKK": "3.16%",
+      "ARKQ": "3.93%",
+      "ARKW": "2.88%",
+      "ARKX": "4.34%"
+    }
+  },
+  "TOST": {
+    "ticker": "TOST",
+    "company": "TOAST INC-CLASS A",
+    "funds": {
+      "ARKF": "4.34%",
+      "ARKW": "1.04%"
+    }
+  },
+  "XYZ": {
+    "ticker": "XYZ",
+    "company": "BLOCK INC",
+    "funds": {
+      "ARKF": "3.85%",
+      "ARKK": "1.51%",
+      "ARKW": "2.81%"
+    }
+  },
+  "SOFI": {
+    "ticker": "SOFI",
+    "company": "SOFI TECHNOLOGIES INC",
+    "funds": {
+      "ARKF": "3.53%",
+      "ARKK": "0.61%"
+    }
+  },
+  "ROKU": {
+    "ticker": "ROKU",
+    "company": "ROKU INC",
+    "funds": {
+      "ARKF": "3.44%",
+      "ARKK": "4.15%",
+      "ARKW": "3.97%"
+    }
+  },
+  "CRCL": {
+    "ticker": "CRCL",
+    "company": "CIRCLE INTERNET GROUP INC",
+    "funds": {
+      "ARKF": "3.36%",
+      "ARKK": "3.97%",
+      "ARKW": "4.10%"
+    }
+  },
+  "RBLX": {
+    "ticker": "RBLX",
+    "company": "ROBLOX CORP -CLASS A",
+    "funds": {
+      "ARKF": "2.86%",
+      "ARKK": "3.11%",
+      "ARKSX": "0.33%",
+      "ARKUX": "0.33%",
+      "ARKVX": "0.33%",
+      "ARKW": "3.11%"
+    }
+  },
+  "MELI": {
+    "ticker": "MELI",
+    "company": "MERCADOLIBRE INC",
+    "funds": {
+      "ARKF": "2.85%",
+      "ARKW": "0.97%"
+    }
+  },
+  "ADYEN": {
+    "ticker": "ADYEN",
+    "company": "ADYEN NV",
+    "funds": {
+      "ARKF": "2.58%"
+    }
+  },
+  "META": {
+    "ticker": "META",
+    "company": "META PLATFORMS INC-CLASS A",
+    "funds": {
+      "ARKF": "2.46%",
+      "ARKK": "0.38%",
+      "ARKW": "1.83%"
+    }
+  },
+  "AMD": {
+    "ticker": "AMD",
+    "company": "ADVANCED MICRO DEVICES",
+    "funds": {
+      "ARKF": "2.36%",
+      "ARKK": "5.17%",
+      "ARKQ": "6.33%",
+      "ARKW": "8.53%",
+      "ARKX": "4.16%"
+    }
+  },
+  "DKNG UW": {
+    "ticker": "DKNG UW",
+    "company": "DRAFTKINGS INC-CL A",
+    "funds": {
+      "ARKF": "2.36%",
+      "ARKW": "0.96%"
+    }
+  },
+  "AMZN": {
+    "ticker": "AMZN",
+    "company": "AMAZON.COM INC",
+    "funds": {
+      "ARKF": "2.31%",
+      "ARKK": "2.61%",
+      "ARKQ": "3.28%",
+      "ARKW": "4.13%",
+      "ARKX": "3.38%"
+    }
+  },
+  "BMNR": {
+    "ticker": "BMNR",
+    "company": "BITMINE IMMERSION TECHNOLOGI",
+    "funds": {
+      "ARKF": "2.31%",
+      "ARKK": "2.03%",
+      "ARKSX": "0.31%",
+      "ARKUX": "0.31%",
+      "ARKVX": "0.31%",
+      "ARKW": "2.03%"
+    }
+  },
+  "PINS": {
+    "ticker": "PINS",
+    "company": "PINTEREST INC- CLASS A",
+    "funds": {
+      "ARKF": "2.06%"
+    }
+  },
+  "NU UN": {
+    "ticker": "NU UN",
+    "company": "NU HOLDINGS LTD/CAYMAN ISL-A",
+    "funds": {
+      "ARKF": "2.01%"
+    }
+  },
+  "KLAR": {
+    "ticker": "KLAR",
+    "company": "KLARNA GROUP PLC",
+    "funds": {
+      "ARKF": "1.93%"
+    }
+  },
+  "BLSH": {
+    "ticker": "BLSH",
+    "company": "BULLISH",
+    "funds": {
+      "ARKF": "1.75%",
+      "ARKK": "2.44%",
+      "ARKW": "2.11%"
+    }
+  },
+  "SE": {
+    "ticker": "SE",
+    "company": "SEA LTD-ADR",
+    "funds": {
+      "ARKF": "1.71%"
+    }
+  },
+  "ABNB": {
+    "ticker": "ABNB",
+    "company": "AIRBNB INC-CLASS A",
+    "funds": {
+      "ARKF": "1.68%",
+      "ARKW": "0.55%"
+    }
+  },
+  "FUTU": {
+    "ticker": "FUTU",
+    "company": "FUTU HOLDINGS LTD-ADR",
+    "funds": {
+      "ARKF": "1.58%"
+    }
+  },
+  "DASH": {
+    "ticker": "DASH",
+    "company": "DOORDASH INC - A",
+    "funds": {
+      "ARKF": "1.56%",
+      "ARKQ": "1.08%",
+      "ARKW": "1.01%",
+      "ARKX": "1.14%"
+    }
+  },
+  "SPOT": {
+    "ticker": "SPOT",
+    "company": "SPOTIFY TECHNOLOGY SA",
+    "funds": {
+      "ARKF": "1.53%",
+      "ARKW": "1.02%"
+    }
+  },
+  "Z": {
+    "ticker": "Z",
+    "company": "ZILLOW GROUP INC - C",
+    "funds": {
+      "ARKF": "1.52%"
+    }
+  },
+  "NVDA": {
+    "ticker": "NVDA",
+    "company": "NVIDIA CORP",
+    "funds": {
+      "ARKF": "1.51%",
+      "ARKK": "1.26%",
+      "ARKQ": "2.46%",
+      "ARKW": "1.15%",
+      "ARKX": "2.53%"
+    }
+  },
+  "DSY": {
+    "ticker": "DSY",
+    "company": "DISCOVERY LTD",
+    "funds": {
+      "ARKF": "1.40%"
+    }
+  },
+  "GLBE": {
+    "ticker": "GLBE",
+    "company": "GLOBAL-E ONLINE LTD",
+    "funds": {
+      "ARKF": "1.30%"
+    }
+  },
+  "CRWD": {
+    "ticker": "CRWD",
+    "company": "CROWDSTRIKE HOLDINGS INC - A",
+    "funds": {
+      "ARKF": "1.23%",
+      "ARKW": "1.84%"
+    }
+  },
+  "4689": {
+    "ticker": "4689",
+    "company": "LY CORP",
+    "funds": {
+      "ARKF": "1.22%"
+    }
+  },
+  "BABA": {
+    "ticker": "BABA",
+    "company": "ALIBABA GROUP HOLDING-SP ADR",
+    "funds": {
+      "ARKF": "1.14%",
+      "ARKK": "0.91%",
+      "ARKW": "1.06%"
+    }
+  },
+  "ETOR": {
+    "ticker": "ETOR",
+    "company": "ETORO GROUP LTD-A",
+    "funds": {
+      "ARKF": "1.06%",
+      "IZRL": "1.58%"
+    }
+  },
+  "KSPI": {
+    "ticker": "KSPI",
+    "company": "JSC KASPI.KZ ADR",
+    "funds": {
+      "ARKF": "0.95%"
+    }
+  },
+  "INTU": {
+    "ticker": "INTU",
+    "company": "INTUIT INC",
+    "funds": {
+      "ARKF": "0.87%"
+    }
+  },
+  "PYPL": {
+    "ticker": "PYPL",
+    "company": "PAYPAL HOLDINGS INC",
+    "funds": {
+      "ARKF": "0.80%"
+    }
+  },
+  "ICE": {
+    "ticker": "ICE",
+    "company": "INTERCONTINENTAL EXCHANGE IN",
+    "funds": {
+      "ARKF": "0.79%"
+    }
+  },
+  "ETHQ/U": {
+    "ticker": "ETHQ/U",
+    "company": "3IQ ETHER STAKING ETF",
+    "funds": {
+      "ARKF": "0.68%",
+      "ARKW": "0.45%"
+    }
+  },
+  "SOLQ/U": {
+    "ticker": "SOLQ/U",
+    "company": "3IQ SOLANA STAKING ETF",
+    "funds": {
+      "ARKF": "0.41%",
+      "ARKW": "0.18%"
+    }
+  },
+  "SLMT": {
+    "ticker": "SLMT",
+    "company": "BRERA HOLDINGS PLC-CL B",
+    "funds": {
+      "ARKF": "0.17%",
+      "ARKK": "0.05%",
+      "ARKW": "0.08%"
+    }
+  },
+  "TWST": {
+    "ticker": "TWST",
+    "company": "TWIST BIOSCIENCE CORP",
+    "funds": {
+      "ARKG": "9.53%",
+      "ARKK": "3.07%",
+      "ARKSX": "0.52%",
+      "ARKUX": "0.52%",
+      "ARKVX": "0.52%"
+    }
+  },
+  "CRSP": {
+    "ticker": "CRSP",
+    "company": "CRISPR THERAPEUTICS AG",
+    "funds": {
+      "ARKG": "8.97%",
+      "ARKK": "4.93%",
+      "ARKSX": "1.30%",
+      "ARKUX": "1.30%",
+      "ARKVX": "1.30%"
+    }
+  },
+  "TEM": {
+    "ticker": "TEM",
+    "company": "TEMPUS AI INC-CL A",
+    "funds": {
+      "ARKG": "8.78%",
+      "ARKK": "4.91%",
+      "ARKSX": "0.61%",
+      "ARKUX": "0.61%",
+      "ARKVX": "0.61%"
+    }
+  },
+  "TXG": {
+    "ticker": "TXG",
+    "company": "10X GENOMICS INC-CLASS A",
+    "funds": {
+      "ARKG": "5.66%",
+      "ARKK": "2.23%",
+      "ARKSX": "0.49%",
+      "ARKUX": "0.49%",
+      "ARKVX": "0.49%"
+    }
+  },
+  "BEAM": {
+    "ticker": "BEAM",
+    "company": "BEAM THERAPEUTICS INC",
+    "funds": {
+      "ARKG": "5.54%",
+      "ARKK": "3.07%",
+      "ARKSX": "1.27%",
+      "ARKUX": "1.27%",
+      "ARKVX": "1.27%"
+    }
+  },
+  "ABSI": {
+    "ticker": "ABSI",
+    "company": "ABSCI CORP",
+    "funds": {
+      "ARKG": "4.73%",
+      "ARKSX": "0.91%",
+      "ARKUX": "0.91%",
+      "ARKVX": "0.91%"
+    }
+  },
+  "ILMN": {
+    "ticker": "ILMN",
+    "company": "ILLUMINA INC",
+    "funds": {
+      "ARKG": "4.08%",
+      "ARKK": "1.20%"
+    }
+  },
+  "NTRA": {
+    "ticker": "NTRA",
+    "company": "NATERA INC",
+    "funds": {
+      "ARKG": "4.00%",
+      "ARKK": "1.13%"
+    }
+  },
+  "CDNA": {
+    "ticker": "CDNA",
+    "company": "CAREDX INC",
+    "funds": {
+      "ARKG": "3.61%"
+    }
+  },
+  "PSNL": {
+    "ticker": "PSNL",
+    "company": "PERSONALIS INC",
+    "funds": {
+      "ARKG": "3.61%"
+    }
+  },
+  "RXRX": {
+    "ticker": "RXRX",
+    "company": "RECURSION PHARMACEUTICALS-A",
+    "funds": {
+      "ARKG": "3.51%",
+      "ARKK": "1.14%",
+      "ARKSX": "0.30%",
+      "ARKUX": "0.30%",
+      "ARKVX": "0.30%"
+    }
+  },
+  "NTLA": {
+    "ticker": "NTLA",
+    "company": "INTELLIA THERAPEUTICS INC",
+    "funds": {
+      "ARKG": "3.40%",
+      "ARKK": "1.50%",
+      "ARKSX": "0.48%",
+      "ARKUX": "0.48%",
+      "ARKVX": "0.48%"
+    }
+  },
+  "GH": {
+    "ticker": "GH",
+    "company": "GUARDANT HEALTH INC",
+    "funds": {
+      "ARKG": "3.38%"
+    }
+  },
+  "VCYT": {
+    "ticker": "VCYT",
+    "company": "VERACYTE INC",
+    "funds": {
+      "ARKG": "2.74%",
+      "ARKK": "0.90%"
+    }
+  },
+  "ADPT": {
+    "ticker": "ADPT",
+    "company": "ADAPTIVE BIOTECHNOLOGIES",
+    "funds": {
+      "ARKG": "2.44%"
+    }
+  },
+  "NRIX": {
+    "ticker": "NRIX",
+    "company": "NURIX THERAPEUTICS INC",
+    "funds": {
+      "ARKG": "2.41%"
+    }
+  },
+  "CMPS": {
+    "ticker": "CMPS",
+    "company": "COMPASS PATHWAYS PLC",
+    "funds": {
+      "ARKG": "2.29%"
+    }
+  },
+  "WGS": {
+    "ticker": "WGS",
+    "company": "GENEDX HOLDINGS CORP",
+    "funds": {
+      "ARKG": "2.17%",
+      "ARKK": "0.84%"
+    }
+  },
+  "SDGR": {
+    "ticker": "SDGR",
+    "company": "SCHRODINGER INC",
+    "funds": {
+      "ARKG": "2.10%"
+    }
+  },
+  "BFLY": {
+    "ticker": "BFLY",
+    "company": "BUTTERFLY NETWORK INC",
+    "funds": {
+      "ARKG": "2.07%"
+    }
+  },
+  "ARCT UQ": {
+    "ticker": "ARCT UQ",
+    "company": "ARCTURUS THERAPEUTICS HOLDIN",
+    "funds": {
+      "ARKG": "2.04%"
+    }
+  },
+  "IONS": {
+    "ticker": "IONS",
+    "company": "IONIS PHARMACEUTICALS INC",
+    "funds": {
+      "ARKG": "1.69%"
+    }
+  },
+  "ATAI UQ": {
+    "ticker": "ATAI UQ",
+    "company": "ATAIBECKLEY INC",
+    "funds": {
+      "ARKG": "1.55%"
+    }
+  },
+  "PRME": {
+    "ticker": "PRME",
+    "company": "PRIME MEDICINE INC",
+    "funds": {
+      "ARKG": "1.49%",
+      "ARKSX": "0.75%",
+      "ARKUX": "0.75%",
+      "ARKVX": "0.75%"
+    }
+  },
+  "PACB": {
+    "ticker": "PACB",
+    "company": "PACIFIC BIOSCIENCES OF CALIF",
+    "funds": {
+      "ARKG": "1.42%",
+      "ARKK": "0.36%",
+      "ARKSX": "0.12%",
+      "ARKUX": "0.12%",
+      "ARKVX": "0.12%"
+    }
+  },
+  "ALMR": {
+    "ticker": "ALMR",
+    "company": "ALAMAR BIOSCIENCES INC",
+    "funds": {
+      "ARKG": "1.28%"
+    }
+  },
+  "CERS": {
+    "ticker": "CERS",
+    "company": "CERUS CORP",
+    "funds": {
+      "ARKG": "1.20%",
+      "ARKK": "0.29%"
+    }
+  },
+  "MASS": {
+    "ticker": "MASS",
+    "company": "908 DEVICES INC",
+    "funds": {
+      "ARKG": "1.08%"
+    }
+  },
+  "BNTX": {
+    "ticker": "BNTX",
+    "company": "BIONTECH SE-ADR",
+    "funds": {
+      "ARKG": "1.06%"
+    }
+  },
+  "LLY": {
+    "ticker": "LLY",
+    "company": "ELI LILLY & CO",
+    "funds": {
+      "ARKG": "0.90%"
+    }
+  },
+  "QSI": {
+    "ticker": "QSI",
+    "company": "QUANTUM-SI INC",
+    "funds": {
+      "ARKG": "0.52%"
+    }
+  },
+  "GENB": {
+    "ticker": "GENB",
+    "company": "GENERATE BIOMEDICINES INC",
+    "funds": {
+      "ARKG": "0.51%",
+      "ARKSX": "0.22%",
+      "ARKUX": "0.22%",
+      "ARKVX": "0.22%"
+    }
+  },
+  "TSLA": {
+    "ticker": "TSLA",
+    "company": "TESLA INC",
+    "funds": {
+      "ARKK": "9.54%",
+      "ARKQ": "9.85%",
+      "ARKSX": "0.78%",
+      "ARKUX": "0.78%",
+      "ARKVX": "0.78%",
+      "ARKW": "8.53%"
+    }
+  },
+  "CRWV": {
+    "ticker": "CRWV",
+    "company": "COREWEAVE INC-CL A",
+    "funds": {
+      "ARKK": "2.68%",
+      "ARKW": "3.86%"
+    }
+  },
+  "TER": {
+    "ticker": "TER",
+    "company": "TERADYNE INC",
+    "funds": {
+      "ARKK": "2.15%",
+      "ARKQ": "8.94%",
+      "ARKX": "7.22%"
+    }
+  },
+  "ACHR": {
+    "ticker": "ACHR",
+    "company": "ARCHER AVIATION INC-A",
+    "funds": {
+      "ARKK": "1.57%",
+      "ARKQ": "2.94%",
+      "ARKSX": "0.30%",
+      "ARKUX": "0.30%",
+      "ARKVX": "0.30%",
+      "ARKX": "5.08%"
+    }
+  },
+  "TSM": {
+    "ticker": "TSM",
+    "company": "TAIWAN SEMICONDUCTOR-SP ADR",
+    "funds": {
+      "ARKK": "1.43%",
+      "ARKQ": "3.04%",
+      "ARKW": "2.80%",
+      "ARKX": "1.04%"
+    }
+  },
+  "XE": {
+    "ticker": "XE",
+    "company": "X-ENERGY INC",
+    "funds": {
+      "ARKK": "1.37%",
+      "ARKQ": "1.40%"
+    }
+  },
+  "DE": {
+    "ticker": "DE",
+    "company": "DEERE & CO",
+    "funds": {
+      "ARKK": "1.16%",
+      "ARKQ": "3.98%",
+      "ARKX": "5.28%"
+    }
+  },
+  "AVGO": {
+    "ticker": "AVGO",
+    "company": "BROADCOM INC",
+    "funds": {
+      "ARKK": "1.11%",
+      "ARKQ": "1.51%",
+      "ARKW": "2.25%"
+    }
+  },
+  "GOOG": {
+    "ticker": "GOOG",
+    "company": "ALPHABET INC-CL C",
+    "funds": {
+      "ARKK": "1.10%",
+      "ARKQ": "3.80%",
+      "ARKW": "3.60%",
+      "ARKX": "2.78%"
+    }
+  },
+  "BIDU": {
+    "ticker": "BIDU",
+    "company": "BAIDU INC - SPON ADR",
+    "funds": {
+      "ARKK": "1.02%",
+      "ARKQ": "1.89%",
+      "ARKW": "1.02%"
+    }
+  },
+  "BWXT": {
+    "ticker": "BWXT",
+    "company": "BWX TECHNOLOGIES INC",
+    "funds": {
+      "ARKK": "1.00%",
+      "ARKQ": "1.81%",
+      "ARKX": "1.65%"
+    }
+  },
+  "KTOS": {
+    "ticker": "KTOS",
+    "company": "KRATOS DEFENSE & SECURITY",
+    "funds": {
+      "ARKK": "0.84%",
+      "ARKQ": "5.04%",
+      "ARKX": "7.75%"
+    }
+  },
+  "RKLB UQ": {
+    "ticker": "RKLB UQ",
+    "company": "ROCKET LAB",
+    "funds": {
+      "ARKQ": "4.63%",
+      "ARKX": "8.90%"
+    }
+  },
+  "AVAV": {
+    "ticker": "AVAV",
+    "company": "AEROVIRONMENT INC",
+    "funds": {
+      "ARKQ": "2.94%",
+      "ARKX": "6.58%"
+    }
+  },
+  "LHX": {
+    "ticker": "LHX",
+    "company": "L3HARRIS TECHNOLOGIES INC",
+    "funds": {
+      "ARKQ": "2.89%",
+      "ARKX": "8.34%",
+      "PRNT": "1.75%"
+    }
+  },
+  "TRMB": {
+    "ticker": "TRMB",
+    "company": "TRIMBLE INC",
+    "funds": {
+      "ARKQ": "2.39%",
+      "ARKX": "4.13%"
+    }
+  },
+  "LUNR": {
+    "ticker": "LUNR",
+    "company": "INTUITIVE MACHINES INC",
+    "funds": {
+      "ARKQ": "2.21%",
+      "ARKX": "1.76%"
+    }
+  },
+  "CAT": {
+    "ticker": "CAT",
+    "company": "CATERPILLAR INC",
+    "funds": {
+      "ARKQ": "2.16%"
+    }
+  },
+  "CCJ": {
+    "ticker": "CCJ",
+    "company": "CAMECO CORP",
+    "funds": {
+      "ARKQ": "1.86%"
+    }
+  },
+  "KMTUY": {
+    "ticker": "KMTUY",
+    "company": "KOMATSU LTD -SPONS ADR",
+    "funds": {
+      "ARKQ": "1.86%"
+    }
+  },
+  "SYM UQ": {
+    "ticker": "SYM UQ",
+    "company": "SYMBOTIC INC",
+    "funds": {
+      "ARKQ": "1.85%"
+    }
+  },
+  "ESLT": {
+    "ticker": "ESLT",
+    "company": "ELBIT SYSTEMS LTD",
+    "funds": {
+      "ARKQ": "1.61%",
+      "ARKX": "1.48%",
+      "IZRL": "1.54%"
+    }
+  },
+  "IRDM": {
+    "ticker": "IRDM",
+    "company": "IRIDIUM COMMUNICATIONS INC",
+    "funds": {
+      "ARKQ": "1.53%",
+      "ARKX": "3.62%"
+    }
+  },
+  "JOBY": {
+    "ticker": "JOBY",
+    "company": "JOBY AVIATION INC",
+    "funds": {
+      "ARKQ": "1.46%",
+      "ARKX": "2.44%"
+    }
+  },
+  "ISRG": {
+    "ticker": "ISRG",
+    "company": "INTUITIVE SURGICAL INC",
+    "funds": {
+      "ARKQ": "1.37%"
+    }
+  },
+  "AUR": {
+    "ticker": "AUR",
+    "company": "AURORA INNOVATION INC",
+    "funds": {
+      "ARKQ": "1.36%"
+    }
+  },
+  "WRD": {
+    "ticker": "WRD",
+    "company": "WERIDE INC-ADR",
+    "funds": {
+      "ARKQ": "1.28%"
+    }
+  },
+  "OKLO": {
+    "ticker": "OKLO",
+    "company": "OKLO INC",
+    "funds": {
+      "ARKQ": "1.21%"
+    }
+  },
+  "BYDDY": {
+    "ticker": "BYDDY",
+    "company": "BYD CO LTD-UNSPONSORED ADR",
+    "funds": {
+      "ARKQ": "1.07%"
+    }
+  },
+  "TDY": {
+    "ticker": "TDY",
+    "company": "TELEDYNE TECHNOLOGIES INC",
+    "funds": {
+      "ARKQ": "1.07%",
+      "ARKX": "1.19%"
+    }
+  },
+  "KDK": {
+    "ticker": "KDK",
+    "company": "KODIAK AI INC",
+    "funds": {
+      "ARKQ": "1.05%",
+      "ARKSX": "1.08%",
+      "ARKUX": "1.08%",
+      "ARKVX": "1.08%"
+    }
+  },
+  "SNPS": {
+    "ticker": "SNPS",
+    "company": "SYNOPSYS INC",
+    "funds": {
+      "ARKQ": "1.04%",
+      "ARKX": "1.18%",
+      "PRNT": "5.46%"
+    }
+  },
+  "SRTA": {
+    "ticker": "SRTA",
+    "company": "STRATA CRITICAL MEDICAL INC",
+    "funds": {
+      "ARKQ": "0.90%",
+      "ARKX": "1.78%"
+    }
+  },
+  "PONY": {
+    "ticker": "PONY",
+    "company": "PONY AI INC",
+    "funds": {
+      "ARKQ": "0.88%"
+    }
+  },
+  "CNTN": {
+    "ticker": "CNTN",
+    "company": "Canton Strategic Holdings",
+    "funds": {
+      "ARKSX": "1.69%",
+      "ARKUX": "1.69%",
+      "ARKVX": "1.69%"
+    }
+  },
+  "NET": {
+    "ticker": "NET",
+    "company": "CLOUDFLARE INC - CLASS A",
+    "funds": {
+      "ARKW": "1.85%"
+    }
+  },
+  "DDOG": {
+    "ticker": "DDOG",
+    "company": "DATADOG INC - CLASS A",
+    "funds": {
+      "ARKW": "1.47%"
+    }
+  },
+  "PSTG": {
+    "ticker": "PSTG",
+    "company": "EVERPURE INC-A",
+    "funds": {
+      "ARKW": "1.45%"
+    }
+  },
+  "NFLX": {
+    "ticker": "NFLX",
+    "company": "NETFLIX INC",
+    "funds": {
+      "ARKW": "1.32%"
+    }
+  },
+  "RBRK": {
+    "ticker": "RBRK",
+    "company": "RUBRIK INC-A",
+    "funds": {
+      "ARKW": "1.13%"
+    }
+  },
+  "GTLB": {
+    "ticker": "GTLB",
+    "company": "GITLAB INC-CL A",
+    "funds": {
+      "ARKW": "0.88%"
+    }
+  },
+  "GENI": {
+    "ticker": "GENI",
+    "company": "GENIUS SPORTS LTD",
+    "funds": {
+      "ARKW": "0.84%"
+    }
+  },
+  "HO": {
+    "ticker": "HO",
+    "company": "THALES SA",
+    "funds": {
+      "ARKX": "2.14%"
+    }
+  },
+  "6301": {
+    "ticker": "6301",
+    "company": "KOMATSU LTD",
+    "funds": {
+      "ARKX": "2.02%"
+    }
+  },
+  "GRMN UN": {
+    "ticker": "GRMN UN",
+    "company": "GARMIN LTD",
+    "funds": {
+      "ARKX": "1.49%"
+    }
+  },
+  "HEI": {
+    "ticker": "HEI",
+    "company": "HEICO CORP",
+    "funds": {
+      "ARKX": "1.16%"
+    }
+  },
+  "HON": {
+    "ticker": "HON",
+    "company": "HONEYWELL INTERNATIONAL INC",
+    "funds": {
+      "ARKX": "1.03%"
+    }
+  },
+  "AIR": {
+    "ticker": "AIR",
+    "company": "AIRBUS SE",
+    "funds": {
+      "ARKX": "1.02%"
+    }
+  },
+  "DSY FP": {
+    "ticker": "DSY FP",
+    "company": "DASSAULT SYSTEMES SE",
+    "funds": {
+      "ARKX": "1.02%",
+      "PRNT": "4.90%"
+    }
+  },
+  "2618": {
+    "ticker": "2618",
+    "company": "JD LOGISTICS INC",
+    "funds": {
+      "ARKX": "0.92%"
+    }
+  },
+  "PRNT": {
+    "ticker": "PRNT",
+    "company": "THE 3D PRINTING ETF",
+    "funds": {
+      "ARKX": "0.59%"
+    }
+  },
+  "LMT": {
+    "ticker": "LMT",
+    "company": "LOCKHEED MARTIN CORP",
+    "funds": {
+      "ARKX": "0.57%"
+    }
+  },
+  "RDCM": {
+    "ticker": "RDCM",
+    "company": "RADCOM LTD",
+    "funds": {
+      "IZRL": "2.12%"
+    }
+  },
+  "TLSY": {
+    "ticker": "TLSY",
+    "company": "TELSYS LTD",
+    "funds": {
+      "IZRL": "1.93%"
+    }
+  },
+  "MBLY": {
+    "ticker": "MBLY",
+    "company": "MOBILEYE GLOBAL INC-A",
+    "funds": {
+      "IZRL": "1.90%"
+    }
+  },
+  "WIX": {
+    "ticker": "WIX",
+    "company": "WIX.COM LTD",
+    "funds": {
+      "IZRL": "1.87%"
+    }
+  },
+  "URGN UQ": {
+    "ticker": "URGN UQ",
+    "company": "UROGEN PHARMA LTD",
+    "funds": {
+      "IZRL": "1.83%"
+    }
+  },
+  "FTAL": {
+    "ticker": "FTAL",
+    "company": "FATTAL HOLDINGS 1998 LTD",
+    "funds": {
+      "IZRL": "1.79%"
+    }
+  },
+  "HLAN": {
+    "ticker": "HLAN",
+    "company": "HILAN LTD",
+    "funds": {
+      "IZRL": "1.79%"
+    }
+  },
+  "PTNR": {
+    "ticker": "PTNR",
+    "company": "PARTNER COMMUNICATIONS CO",
+    "funds": {
+      "IZRL": "1.73%"
+    }
+  },
+  "CEL": {
+    "ticker": "CEL",
+    "company": "CELLCOM ISRAEL LTD",
+    "funds": {
+      "IZRL": "1.72%"
+    }
+  },
+  "FROG": {
+    "ticker": "FROG",
+    "company": "JFROG LTD",
+    "funds": {
+      "IZRL": "1.72%"
+    }
+  },
+  "ONE": {
+    "ticker": "ONE",
+    "company": "ONE SOFTWARE TECHNOLOGIES LT",
+    "funds": {
+      "IZRL": "1.72%"
+    }
+  },
+  "BWAY": {
+    "ticker": "BWAY",
+    "company": "BRAINSWAY LTD-ADR",
+    "funds": {
+      "IZRL": "1.71%"
+    }
+  },
+  "TBLA": {
+    "ticker": "TBLA",
+    "company": "TABOOLA.COM LTD",
+    "funds": {
+      "IZRL": "1.70%"
+    }
+  },
+  "NYAX": {
+    "ticker": "NYAX",
+    "company": "NAYAX LTD",
+    "funds": {
+      "IZRL": "1.69%"
+    }
+  },
+  "ODD": {
+    "ticker": "ODD",
+    "company": "ODDITY TECH LTD-CL A",
+    "funds": {
+      "IZRL": "1.69%"
+    }
+  },
+  "PCBT": {
+    "ticker": "PCBT",
+    "company": "P.C.B TECHNOLOGIES LTD",
+    "funds": {
+      "IZRL": "1.69%"
+    }
+  },
+  "CHKP": {
+    "ticker": "CHKP",
+    "company": "CHECK POINT SOFTWARE TECH",
+    "funds": {
+      "IZRL": "1.68%"
+    }
+  },
+  "CGEN": {
+    "ticker": "CGEN",
+    "company": "COMPUGEN LTD",
+    "funds": {
+      "IZRL": "1.68%"
+    }
+  },
+  "ISRO": {
+    "ticker": "ISRO",
+    "company": "ISROTEL LTD",
+    "funds": {
+      "IZRL": "1.68%"
+    }
+  },
+  "SMWB": {
+    "ticker": "SMWB",
+    "company": "SIMILARWEB LTD",
+    "funds": {
+      "IZRL": "1.68%"
+    }
+  },
+  "MTRX": {
+    "ticker": "MTRX",
+    "company": "MATRIX IT LTD",
+    "funds": {
+      "IZRL": "1.67%"
+    }
+  },
+  "MNDY": {
+    "ticker": "MNDY",
+    "company": "MONDAY.COM LTD",
+    "funds": {
+      "IZRL": "1.67%"
+    }
+  },
+  "RDWR": {
+    "ticker": "RDWR",
+    "company": "RADWARE LTD",
+    "funds": {
+      "IZRL": "1.67%"
+    }
+  },
+  "DANE": {
+    "ticker": "DANE",
+    "company": "DANEL (ADIR YEOSHUA) LTD",
+    "funds": {
+      "IZRL": "1.66%"
+    }
+  },
+  "MLTM": {
+    "ticker": "MLTM",
+    "company": "MALAM - TEAM LTD",
+    "funds": {
+      "IZRL": "1.66%"
+    }
+  },
+  "ITRN": {
+    "ticker": "ITRN",
+    "company": "ITURAN LOCATION AND CONTROL",
+    "funds": {
+      "IZRL": "1.65%"
+    }
+  },
+  "BSEN": {
+    "ticker": "BSEN",
+    "company": "BET SHEMESH ENGINES HOLDINGS",
+    "funds": {
+      "IZRL": "1.64%"
+    }
+  },
+  "CAMT": {
+    "ticker": "CAMT",
+    "company": "CAMTEK LTD",
+    "funds": {
+      "IZRL": "1.64%"
+    }
+  },
+  "PERI": {
+    "ticker": "PERI",
+    "company": "PERION NETWORK LTD",
+    "funds": {
+      "IZRL": "1.64%"
+    }
+  },
+  "INMD": {
+    "ticker": "INMD",
+    "company": "INMODE LTD",
+    "funds": {
+      "IZRL": "1.63%"
+    }
+  },
+  "ISTA": {
+    "ticker": "ISTA",
+    "company": "ISSTA LTD",
+    "funds": {
+      "IZRL": "1.63%"
+    }
+  },
+  "RSKD": {
+    "ticker": "RSKD",
+    "company": "RISKIFIED LTD-A",
+    "funds": {
+      "IZRL": "1.63%"
+    }
+  },
+  "SSYS": {
+    "ticker": "SSYS",
+    "company": "STRATASYS LTD",
+    "funds": {
+      "IZRL": "1.63%",
+      "PRNT": "3.78%"
+    }
+  },
+  "AMAL": {
+    "ticker": "AMAL",
+    "company": "AMAL HOLDINGS",
+    "funds": {
+      "IZRL": "1.62%"
+    }
+  },
+  "BEZQ": {
+    "ticker": "BEZQ",
+    "company": "BEZEQ THE ISRAELI TELECOM CO",
+    "funds": {
+      "IZRL": "1.62%"
+    }
+  },
+  "CLBT": {
+    "ticker": "CLBT",
+    "company": "CELLEBRITE DI LTD",
+    "funds": {
+      "IZRL": "1.62%"
+    }
+  },
+  "KMDA": {
+    "ticker": "KMDA",
+    "company": "KAMADA LTD",
+    "funds": {
+      "IZRL": "1.62%"
+    }
+  },
+  "TEVA": {
+    "ticker": "TEVA",
+    "company": "TEVA PHARMACEUTICAL-SP ADR",
+    "funds": {
+      "IZRL": "1.62%"
+    }
+  },
+  "AUDC": {
+    "ticker": "AUDC",
+    "company": "AUDIOCODES LTD",
+    "funds": {
+      "IZRL": "1.61%"
+    }
+  },
+  "CGNT": {
+    "ticker": "CGNT",
+    "company": "COGNYTE SOFTWARE LTD",
+    "funds": {
+      "IZRL": "1.61%"
+    }
+  },
+  "NICE": {
+    "ticker": "NICE",
+    "company": "NICE LTD - SPON ADR",
+    "funds": {
+      "IZRL": "1.60%"
+    }
+  },
+  "PLTK": {
+    "ticker": "PLTK",
+    "company": "PLAYTIKA HOLDING CORP",
+    "funds": {
+      "IZRL": "1.60%"
+    }
+  },
+  "ASHO": {
+    "ticker": "ASHO",
+    "company": "ASHOT -ASHKELON INDUSTRIES",
+    "funds": {
+      "IZRL": "1.59%"
+    }
+  },
+  "VLN": {
+    "ticker": "VLN",
+    "company": "VALENS SEMICONDUCTOR LTD",
+    "funds": {
+      "IZRL": "1.59%"
+    }
+  },
+  "MDWD UQ": {
+    "ticker": "MDWD UQ",
+    "company": "MEDIWOUND LTD",
+    "funds": {
+      "IZRL": "1.57%"
+    }
+  },
+  "NVMI": {
+    "ticker": "NVMI",
+    "company": "NOVA LTD",
+    "funds": {
+      "IZRL": "1.57%"
+    }
+  },
+  "FVRR": {
+    "ticker": "FVRR",
+    "company": "FIVERR INTERNATIONAL LTD",
+    "funds": {
+      "IZRL": "1.56%"
+    }
+  },
+  "RPOL": {
+    "ticker": "RPOL",
+    "company": "RP OPTICAL LAB LTD",
+    "funds": {
+      "IZRL": "1.56%"
+    }
+  },
+  "ARYT": {
+    "ticker": "ARYT",
+    "company": "ARYT INDUSTRIES LTD",
+    "funds": {
+      "IZRL": "1.55%"
+    }
+  },
+  "SLRM": {
+    "ticker": "SLRM",
+    "company": "SOLROM HOLDINGS LTD",
+    "funds": {
+      "IZRL": "1.55%"
+    }
+  },
+  "ALLT": {
+    "ticker": "ALLT",
+    "company": "ALLOT LTD",
+    "funds": {
+      "IZRL": "1.53%"
+    }
+  },
+  "DRTS": {
+    "ticker": "DRTS",
+    "company": "ALPHA TAU MEDICAL LTD",
+    "funds": {
+      "IZRL": "1.51%"
+    }
+  },
+  "PGY": {
+    "ticker": "PGY",
+    "company": "PAGAYA TECHNOLOGIES LTD -A",
+    "funds": {
+      "IZRL": "1.49%"
+    }
+  },
+  "QLTU": {
+    "ticker": "QLTU",
+    "company": "QUALITAU LTD",
+    "funds": {
+      "IZRL": "1.49%"
+    }
+  },
+  "GILT": {
+    "ticker": "GILT",
+    "company": "GILAT SATELLITE NETWORKS LTD",
+    "funds": {
+      "IZRL": "1.46%"
+    }
+  },
+  "TSEM": {
+    "ticker": "TSEM",
+    "company": "TOWER SEMICONDUCTOR LTD",
+    "funds": {
+      "IZRL": "1.46%"
+    }
+  },
+  "TATTF": {
+    "ticker": "TATTF",
+    "company": "TAT TECHNOLOGIES LTD",
+    "funds": {
+      "IZRL": "1.38%"
+    }
+  },
+  "ENLV": {
+    "ticker": "ENLV",
+    "company": "ENLIVEX LTD",
+    "funds": {
+      "IZRL": "0.39%"
+    }
+  },
+  "NNOX": {
+    "ticker": "NNOX",
+    "company": "NANO-X IMAGING LTD",
+    "funds": {
+      "IZRL": "1.08%"
+    }
+  },
+  "SIE": {
+    "ticker": "SIE",
+    "company": "SIEMENS AG-REG",
+    "funds": {
+      "PRNT": "5.15%"
+    }
+  },
+  "PTC": {
+    "ticker": "PTC",
+    "company": "PTC INC",
+    "funds": {
+      "PRNT": "4.94%"
+    }
+  },
+  "ADSK": {
+    "ticker": "ADSK",
+    "company": "AUTODESK INC",
+    "funds": {
+      "PRNT": "4.91%"
+    }
+  },
+  "XRAY UW": {
+    "ticker": "XRAY UW",
+    "company": "DENTSPLY SIRONA INC",
+    "funds": {
+      "PRNT": "4.75%"
+    }
+  },
+  "VELO": {
+    "ticker": "VELO",
+    "company": "VELO3D INC",
+    "funds": {
+      "PRNT": "4.54%"
+    }
+  },
+  "RSW": {
+    "ticker": "RSW",
+    "company": "RENISHAW PLC",
+    "funds": {
+      "PRNT": "4.35%"
+    }
+  },
+  "DDD": {
+    "ticker": "DDD",
+    "company": "3D SYSTEMS CORP",
+    "funds": {
+      "PRNT": "3.89%"
+    }
+  },
+  "PRLB": {
+    "ticker": "PRLB",
+    "company": "PROTO LABS INC",
+    "funds": {
+      "PRNT": "3.86%"
+    }
+  },
+  "HPQ": {
+    "ticker": "HPQ",
+    "company": "HP INC",
+    "funds": {
+      "PRNT": "3.84%"
+    }
+  },
+  "MTLS": {
+    "ticker": "MTLS",
+    "company": "MATERIALISE NV-ADR",
+    "funds": {
+      "PRNT": "3.81%"
+    }
+  },
+  "NNDM": {
+    "ticker": "NNDM",
+    "company": "NANO DIMENSION LTD - ADR",
+    "funds": {
+      "PRNT": "3.74%"
+    }
+  },
+  "TTT": {
+    "ticker": "TTT",
+    "company": "TITOMIC LTD",
+    "funds": {
+      "PRNT": "3.66%"
+    }
+  },
+  "XMTR": {
+    "ticker": "XMTR",
+    "company": "XOMETRY INC-A",
+    "funds": {
+      "PRNT": "3.66%"
+    }
+  },
+  "STMN SE": {
+    "ticker": "STMN SE",
+    "company": "STRAUMANN HOLDING AG-REG",
+    "funds": {
+      "PRNT": "3.56%"
+    }
+  },
+  "BICO": {
+    "ticker": "BICO",
+    "company": "BICO GROUP AB",
+    "funds": {
+      "PRNT": "3.55%"
+    }
+  },
+  "7731": {
+    "ticker": "7731",
+    "company": "NIKON CORP",
+    "funds": {
+      "PRNT": "3.37%"
+    }
+  },
+  "KALU": {
+    "ticker": "KALU",
+    "company": "KAISER ALUMINUM CORP",
+    "funds": {
+      "PRNT": "2.23%"
+    }
+  },
+  "LECO": {
+    "ticker": "LECO",
+    "company": "LINCOLN ELECTRIC HOLDINGS",
+    "funds": {
+      "PRNT": "1.87%"
+    }
+  },
+  "ML": {
+    "ticker": "ML",
+    "company": "MICHELIN (CGDE)",
+    "funds": {
+      "PRNT": "1.83%"
+    }
+  },
+  "MOG/A": {
+    "ticker": "MOG/A",
+    "company": "MOOG INC-CLASS A",
+    "funds": {
+      "PRNT": "1.81%"
+    }
+  },
+  "GE": {
+    "ticker": "GE",
+    "company": "GENERAL ELECTRIC",
+    "funds": {
+      "PRNT": "1.79%"
+    }
+  },
+  "OERL": {
+    "ticker": "OERL",
+    "company": "OC OERLIKON CORP AG-REG",
+    "funds": {
+      "PRNT": "1.78%"
+    }
+  },
+  "AME": {
+    "ticker": "AME",
+    "company": "AMETEK INC",
+    "funds": {
+      "PRNT": "1.64%"
+    }
+  },
+  "HEXAB S": {
+    "ticker": "HEXAB S",
+    "company": "HEXAGON AB-B SHS",
+    "funds": {
+      "PRNT": "1.63%"
+    }
+  },
+  "ALGN": {
+    "ticker": "ALGN",
+    "company": "ALIGN TECHNOLOGY INC",
+    "funds": {
+      "PRNT": "1.60%"
+    }
+  },
+  "JBL": {
+    "ticker": "JBL",
+    "company": "JABIL INC",
+    "funds": {
+      "PRNT": "0.14%"
+    }
+  },
+  "MTRN": {
+    "ticker": "MTRN",
+    "company": "MATERION CORP",
+    "funds": {
+      "PRNT": "0.14%"
+    }
+  },
+  "SGL": {
+    "ticker": "SGL",
+    "company": "SGL CARBON SE",
+    "funds": {
+      "PRNT": "0.14%"
+    }
+  },
+  "AKE": {
+    "ticker": "AKE",
+    "company": "ARKEMA",
+    "funds": {
+      "PRNT": "0.13%"
+    }
+  },
+  "ATI": {
+    "ticker": "ATI",
+    "company": "ATI INC",
+    "funds": {
+      "PRNT": "0.13%"
+    }
+  },
+  "AVNT": {
+    "ticker": "AVNT",
+    "company": "AVIENT CORP",
+    "funds": {
+      "PRNT": "0.13%"
+    }
+  },
+  "CRS": {
+    "ticker": "CRS",
+    "company": "CARPENTER TECHNOLOGY",
+    "funds": {
+      "PRNT": "0.13%"
+    }
+  },
+  "EVK": {
+    "ticker": "EVK",
+    "company": "EVONIK INDUSTRIES AG",
+    "funds": {
+      "PRNT": "0.13%"
+    }
+  },
+  "KMT": {
+    "ticker": "KMT",
+    "company": "KENNAMETAL INC",
+    "funds": {
+      "PRNT": "0.13%"
+    }
+  },
+  "SAND": {
+    "ticker": "SAND",
+    "company": "SANDVIK AB",
+    "funds": {
+      "PRNT": "0.13%"
+    }
+  },
+  "3402": {
+    "ticker": "3402",
+    "company": "TORAY INDUSTRIES INC",
+    "funds": {
+      "PRNT": "0.13%"
+    }
+  },
+  "VOE": {
+    "ticker": "VOE",
+    "company": "VOESTALPINE AG",
+    "funds": {
+      "PRNT": "0.13%"
+    }
+  },
+  "MMM": {
+    "ticker": "MMM",
+    "company": "3M CO",
+    "funds": {
+      "PRNT": "0.12%"
+    }
+  },
+  "HEN3": {
+    "ticker": "HEN3",
+    "company": "HENKEL AG & CO KGAA VOR-PREF",
+    "funds": {
+      "PRNT": "0.12%"
+    }
+  },
+  "DCH": {
+    "ticker": "DCH",
+    "company": "DAUCH CORPORATION",
+    "funds": {
+      "PRNT": "0.06%"
+    }
+  }
+}
