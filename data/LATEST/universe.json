@@ -151,8 +151,8 @@
       "ARKX": "4.16%"
     }
   },
-  "DKNG UW": {
-    "ticker": "DKNG UW",
+  "DKNG": {
+    "ticker": "DKNG",
     "company": "DRAFTKINGS INC-CL A",
     "funds": {
       "ARKF": "2.36%",
@@ -189,8 +189,8 @@
       "ARKF": "2.06%"
     }
   },
-  "NU UN": {
-    "ticker": "NU UN",
+  "NU": {
+    "ticker": "NU",
     "company": "NU HOLDINGS LTD/CAYMAN ISL-A",
     "funds": {
       "ARKF": "2.01%"
@@ -274,7 +274,9 @@
     "ticker": "DSY",
     "company": "DISCOVERY LTD",
     "funds": {
-      "ARKF": "1.40%"
+      "ARKF": "1.40%",
+      "ARKX": "1.02%",
+      "PRNT": "4.90%"
     }
   },
   "GLBE": {
@@ -544,8 +546,8 @@
       "ARKG": "2.07%"
     }
   },
-  "ARCT UQ": {
-    "ticker": "ARCT UQ",
+  "ARCT": {
+    "ticker": "ARCT",
     "company": "ARCTURUS THERAPEUTICS HOLDIN",
     "funds": {
       "ARKG": "2.04%"
@@ -558,8 +560,8 @@
       "ARKG": "1.69%"
     }
   },
-  "ATAI UQ": {
-    "ticker": "ATAI UQ",
+  "ATAI": {
+    "ticker": "ATAI",
     "company": "ATAIBECKLEY INC",
     "funds": {
       "ARKG": "1.55%"
@@ -753,8 +755,8 @@
       "ARKX": "7.75%"
     }
   },
-  "RKLB UQ": {
-    "ticker": "RKLB UQ",
+  "RKLB": {
+    "ticker": "RKLB",
     "company": "ROCKET LAB",
     "funds": {
       "ARKQ": "4.63%",
@@ -815,8 +817,8 @@
       "ARKQ": "1.86%"
     }
   },
-  "SYM UQ": {
-    "ticker": "SYM UQ",
+  "SYM": {
+    "ticker": "SYM",
     "company": "SYMBOTIC INC",
     "funds": {
       "ARKQ": "1.85%"
@@ -996,8 +998,8 @@
       "ARKX": "2.02%"
     }
   },
-  "GRMN UN": {
-    "ticker": "GRMN UN",
+  "GRMN": {
+    "ticker": "GRMN",
     "company": "GARMIN LTD",
     "funds": {
       "ARKX": "1.49%"
@@ -1022,14 +1024,6 @@
     "company": "AIRBUS SE",
     "funds": {
       "ARKX": "1.02%"
-    }
-  },
-  "DSY FP": {
-    "ticker": "DSY FP",
-    "company": "DASSAULT SYSTEMES SE",
-    "funds": {
-      "ARKX": "1.02%",
-      "PRNT": "4.90%"
     }
   },
   "2618": {
@@ -1081,8 +1075,8 @@
       "IZRL": "1.87%"
     }
   },
-  "URGN UQ": {
-    "ticker": "URGN UQ",
+  "URGN": {
+    "ticker": "URGN",
     "company": "UROGEN PHARMA LTD",
     "funds": {
       "IZRL": "1.83%"
@@ -1362,8 +1356,8 @@
       "IZRL": "1.59%"
     }
   },
-  "MDWD UQ": {
-    "ticker": "MDWD UQ",
+  "MDWD": {
+    "ticker": "MDWD",
     "company": "MEDIWOUND LTD",
     "funds": {
       "IZRL": "1.57%"
@@ -1488,8 +1482,8 @@
       "PRNT": "4.91%"
     }
   },
-  "XRAY UW": {
-    "ticker": "XRAY UW",
+  "XRAY": {
+    "ticker": "XRAY",
     "company": "DENTSPLY SIRONA INC",
     "funds": {
       "PRNT": "4.75%"
@@ -1558,8 +1552,8 @@
       "PRNT": "3.66%"
     }
   },
-  "STMN SE": {
-    "ticker": "STMN SE",
+  "STMN": {
+    "ticker": "STMN",
     "company": "STRAUMANN HOLDING AG-REG",
     "funds": {
       "PRNT": "3.56%"
@@ -1628,8 +1622,8 @@
       "PRNT": "1.64%"
     }
   },
-  "HEXAB S": {
-    "ticker": "HEXAB S",
+  "HEXAB": {
+    "ticker": "HEXAB",
     "company": "HEXAGON AB-B SHS",
     "funds": {
       "PRNT": "1.63%"
