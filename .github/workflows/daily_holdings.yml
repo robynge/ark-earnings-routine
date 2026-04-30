@@ -27,16 +27,21 @@ jobs:
           mkdir -p data/LATEST/holdings
           python scripts/fetch_holdings.py data/LATEST/holdings/
           python scripts/parse_holdings.py data/LATEST/holdings/*.csv > data/LATEST/universe.json
-          # Write metadata for the routine to read
-          {
-            echo "{"
-            echo "  \"fetched_at\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\","
-            echo "  \"date_label\": \"$(TZ=America/New_York date +%Y-%m-%d)\","
-            echo "  \"csv_count\": $(ls data/LATEST/holdings/*.csv | wc -l),"
-            echo "  \"ticker_count\": $(python -c 'import json; print(len(json.load(open(\"data/LATEST/universe.json\"))))')"
-            echo "}"
-          } > data/LATEST/_fetched_at.json
-          cat data/LATEST/_fetched_at.json
+          # Write metadata using Python (avoids shell quoting issues)
+          python - <<'PY'
+          import json, os, glob
+          from datetime import datetime, timezone
+          uni = json.load(open("data/LATEST/universe.json"))
+          meta = {
+              "fetched_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+              "date_label": os.popen("TZ=America/New_York date +%Y-%m-%d").read().strip(),
+              "csv_count": len(glob.glob("data/LATEST/holdings/*.csv")),
+              "ticker_count": len(uni),
+          }
+          with open("data/LATEST/_fetched_at.json", "w") as f:
+              json.dump(meta, f, indent=2)
+          print(json.dumps(meta, indent=2))
+          PY
 
       - name: Commit & push if changed
         run: |

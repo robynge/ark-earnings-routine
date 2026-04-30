@@ -20,6 +20,8 @@ def parse_one(path):
     reader = csv.DictReader(io.StringIO(text))
     for r in reader:
         ticker = (r.get("ticker") or "").strip()
+        # Strip Bloomberg-style market suffix: "DKNG UW" → "DKNG", "NU UN" → "NU"
+        ticker = ticker.split()[0] if ticker else ticker
         fund = (r.get("fund") or "").strip()
         company = (r.get("company") or r.get("name") or "").strip()
         weight = (r.get("weight (%)") or r.get("weight") or "").strip()
