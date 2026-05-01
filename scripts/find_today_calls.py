@@ -1,21 +1,23 @@
 #!/usr/bin/env python3
 """Find today's earnings calls that are in the ARK universe AND transcript_ready.
 
-Reads earningscall API key from EARNINGSCALL_API_KEY env or first arg.
+Reads EARNINGSCALL_API_KEY from env. Date defaults to America/New_York "today"
+(NOT date.today(), which is UTC and silently skips ET evening calls).
 
 Usage:
-    python find_today_calls.py UNIVERSE.json > today_calls.json
+    python find_today_calls.py UNIVERSE.json [YYYY-MM-DD] > today_calls.json
 """
 import json
 import os
 import sys
-from datetime import date
+from datetime import date, datetime
+from zoneinfo import ZoneInfo
 
 import earningscall
-from earningscall import get_calendar, get_company
+from earningscall import get_calendar
 
-if len(sys.argv) != 2:
-    sys.exit("usage: find_today_calls.py UNIVERSE.json > today_calls.json")
+if len(sys.argv) not in (2, 3):
+    sys.exit("usage: find_today_calls.py UNIVERSE.json [YYYY-MM-DD] > today_calls.json")
 
 api_key = os.environ.get("EARNINGSCALL_API_KEY")
 if not api_key:
@@ -25,38 +27,26 @@ earningscall.api_key = api_key
 universe = json.loads(open(sys.argv[1]).read())
 ark_tickers_upper = {t.upper() for t in universe.keys()}
 
-today = date.today()
-cal = list(get_calendar(today))
+if len(sys.argv) == 3:
+    target = date.fromisoformat(sys.argv[2])
+else:
+    # America/New_York "today" — UTC date silently misses ET evening calls.
+    target = datetime.now(ZoneInfo("America/New_York")).date()
+
+cal = list(get_calendar(target))
 
 matches = []
 for c in cal:
     if not getattr(c, "transcript_ready", False):
         continue
-    name = (c.company_name or "").strip()
-    co = get_company(name.lower()) if name else None
-    # earningscall doesn't expose the resolved ticker on CalendarEvent directly.
-    # Resolve by matching company name → company → infer symbol from get_company.
-    # If get_company doesn't accept the company name, skip.
-    if co is None:
-        continue
-    # Try to look up symbol via the SDK's _company attribute
-    symbol = None
-    for attr in ("symbol", "_symbol", "ticker"):
-        v = getattr(co, attr, None)
-        if isinstance(v, str) and v:
-            symbol = v.upper()
-            break
-    if not symbol:
-        # Fall back: try iterating universe and matching company name
-        for t, entry in universe.items():
-            if (entry.get("company") or "").upper() in name.upper() or name.upper() in (entry.get("company") or "").upper():
-                symbol = t.upper()
-                break
+    # Calendar events expose the resolved symbol directly. The earlier
+    # name-based get_company() lookup mis-resolved most companies.
+    symbol = (getattr(c, "symbol", "") or "").upper()
     if not symbol or symbol not in ark_tickers_upper:
         continue
     matches.append({
         "ticker": symbol,
-        "company": str(co),
+        "company": c.company_name,
         "year": c.year,
         "quarter": c.quarter,
         "conference_date": c.conference_date.isoformat() if c.conference_date else None,
