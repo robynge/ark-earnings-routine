@@ -20,9 +20,9 @@
     "funds": {
       "ARKF": "9.65%",
       "ARKK": "4.37%",
-      "ARKSX": "0.37%",
-      "ARKUX": "0.37%",
-      "ARKVX": "0.37%",
+      "ARKSX": "0.31%",
+      "ARKUX": "0.31%",
+      "ARKVX": "0.31%",
       "ARKW": "4.51%"
     }
   },
@@ -32,9 +32,9 @@
     "funds": {
       "ARKF": "5.67%",
       "ARKK": "4.23%",
-      "ARKSX": "0.37%",
-      "ARKUX": "0.37%",
-      "ARKVX": "0.37%",
+      "ARKSX": "0.32%",
+      "ARKUX": "0.32%",
+      "ARKVX": "0.32%",
       "ARKW": "3.73%"
     }
   },
@@ -44,9 +44,9 @@
     "funds": {
       "ARKF": "5.05%",
       "ARKK": "4.30%",
-      "ARKSX": "0.57%",
-      "ARKUX": "0.57%",
-      "ARKVX": "0.57%",
+      "ARKSX": "0.48%",
+      "ARKUX": "0.48%",
+      "ARKVX": "0.48%",
       "ARKW": "4.64%"
     }
   },
@@ -110,9 +110,9 @@
     "funds": {
       "ARKF": "2.86%",
       "ARKK": "3.07%",
-      "ARKSX": "0.33%",
-      "ARKUX": "0.33%",
-      "ARKVX": "0.33%",
+      "ARKSX": "0.26%",
+      "ARKUX": "0.26%",
+      "ARKVX": "0.26%",
       "ARKW": "3.04%"
     }
   },
@@ -176,9 +176,9 @@
     "funds": {
       "ARKF": "2.31%",
       "ARKK": "2.03%",
-      "ARKSX": "0.31%",
-      "ARKUX": "0.31%",
-      "ARKVX": "0.31%",
+      "ARKSX": "0.27%",
+      "ARKUX": "0.27%",
+      "ARKVX": "0.27%",
       "ARKW": "2.01%"
     }
   },
@@ -377,9 +377,9 @@
     "funds": {
       "ARKG": "9.45%",
       "ARKK": "5.35%",
-      "ARKSX": "0.61%",
-      "ARKUX": "0.61%",
-      "ARKVX": "0.61%"
+      "ARKSX": "1.71%",
+      "ARKUX": "1.71%",
+      "ARKVX": "1.71%"
     }
   },
   "TWST": {
@@ -388,9 +388,9 @@
     "funds": {
       "ARKG": "9.02%",
       "ARKK": "3.05%",
-      "ARKSX": "0.52%",
-      "ARKUX": "0.52%",
-      "ARKVX": "0.52%"
+      "ARKSX": "0.51%",
+      "ARKUX": "0.51%",
+      "ARKVX": "0.51%"
     }
   },
   "CRSP": {
@@ -399,9 +399,9 @@
     "funds": {
       "ARKG": "8.94%",
       "ARKK": "4.98%",
-      "ARKSX": "1.30%",
-      "ARKUX": "1.30%",
-      "ARKVX": "1.30%"
+      "ARKSX": "1.66%",
+      "ARKUX": "1.66%",
+      "ARKVX": "1.66%"
     }
   },
   "TXG": {
@@ -410,9 +410,9 @@
     "funds": {
       "ARKG": "5.78%",
       "ARKK": "2.31%",
-      "ARKSX": "0.49%",
-      "ARKUX": "0.49%",
-      "ARKVX": "0.49%"
+      "ARKSX": "1.24%",
+      "ARKUX": "1.24%",
+      "ARKVX": "1.24%"
     }
   },
   "BEAM": {
@@ -421,9 +421,9 @@
     "funds": {
       "ARKG": "5.44%",
       "ARKK": "3.06%",
-      "ARKSX": "1.27%",
-      "ARKUX": "1.27%",
-      "ARKVX": "1.27%"
+      "ARKSX": "1.85%",
+      "ARKUX": "1.85%",
+      "ARKVX": "1.85%"
     }
   },
   "ABSI": {
@@ -431,9 +431,9 @@
     "company": "ABSCI CORP",
     "funds": {
       "ARKG": "4.79%",
-      "ARKSX": "0.91%",
-      "ARKUX": "0.91%",
-      "ARKVX": "0.91%"
+      "ARKSX": "1.92%",
+      "ARKUX": "1.92%",
+      "ARKVX": "1.92%"
     }
   },
   "NTRA": {
@@ -458,9 +458,9 @@
     "funds": {
       "ARKG": "3.83%",
       "ARKK": "2.06%",
-      "ARKSX": "0.48%",
-      "ARKUX": "0.48%",
-      "ARKVX": "0.48%"
+      "ARKSX": "0.98%",
+      "ARKUX": "0.98%",
+      "ARKVX": "0.98%"
     }
   },
   "PSNL": {
@@ -476,9 +476,9 @@
     "funds": {
       "ARKG": "3.52%",
       "ARKK": "1.16%",
-      "ARKSX": "0.30%",
-      "ARKUX": "0.30%",
-      "ARKVX": "0.30%"
+      "ARKSX": "0.48%",
+      "ARKUX": "0.48%",
+      "ARKVX": "0.48%"
     }
   },
   "GH": {
@@ -529,7 +529,10 @@
     "company": "GENEDX HOLDINGS CORP",
     "funds": {
       "ARKG": "2.05%",
-      "ARKK": "0.81%"
+      "ARKK": "0.81%",
+      "ARKSX": "0.49%",
+      "ARKUX": "0.49%",
+      "ARKVX": "0.49%"
     }
   },
   "SDGR": {
@@ -572,9 +575,9 @@
     "company": "PRIME MEDICINE INC",
     "funds": {
       "ARKG": "1.42%",
-      "ARKSX": "0.75%",
-      "ARKUX": "0.75%",
-      "ARKVX": "0.75%"
+      "ARKSX": "1.13%",
+      "ARKUX": "1.13%",
+      "ARKVX": "1.13%"
     }
   },
   "PACB": {
@@ -583,9 +586,9 @@
     "funds": {
       "ARKG": "1.41%",
       "ARKK": "0.36%",
-      "ARKSX": "0.12%",
-      "ARKUX": "0.12%",
-      "ARKVX": "0.12%"
+      "ARKSX": "0.28%",
+      "ARKUX": "0.28%",
+      "ARKVX": "0.28%"
     }
   },
   "CERS": {
@@ -600,7 +603,10 @@
     "ticker": "ALMR",
     "company": "ALAMAR BIOSCIENCES INC",
     "funds": {
-      "ARKG": "1.21%"
+      "ARKG": "1.21%",
+      "ARKSX": "1.71%",
+      "ARKUX": "1.71%",
+      "ARKVX": "1.71%"
     }
   },
   "MASS": {
@@ -636,9 +642,9 @@
     "company": "GENERATE BIOMEDICINES INC",
     "funds": {
       "ARKG": "0.52%",
-      "ARKSX": "0.22%",
-      "ARKUX": "0.22%",
-      "ARKVX": "0.22%"
+      "ARKSX": "0.51%",
+      "ARKUX": "0.51%",
+      "ARKVX": "0.51%"
     }
   },
   "TSLA": {
@@ -647,9 +653,9 @@
     "funds": {
       "ARKK": "9.73%",
       "ARKQ": "9.85%",
-      "ARKSX": "0.78%",
-      "ARKUX": "0.78%",
-      "ARKVX": "0.78%",
+      "ARKSX": "0.64%",
+      "ARKUX": "0.64%",
+      "ARKVX": "0.64%",
       "ARKW": "8.61%"
     }
   },
@@ -676,9 +682,9 @@
     "funds": {
       "ARKK": "1.55%",
       "ARKQ": "2.85%",
-      "ARKSX": "0.30%",
-      "ARKUX": "0.30%",
-      "ARKVX": "0.30%",
+      "ARKSX": "0.27%",
+      "ARKUX": "0.27%",
+      "ARKVX": "0.27%",
       "ARKX": "5.08%"
     }
   },
@@ -897,9 +903,9 @@
     "company": "KODIAK AI INC",
     "funds": {
       "ARKQ": "1.04%",
-      "ARKSX": "1.08%",
-      "ARKUX": "1.08%",
-      "ARKVX": "1.08%"
+      "ARKSX": "1.07%",
+      "ARKUX": "1.07%",
+      "ARKVX": "1.07%"
     }
   },
   "SNPS": {
@@ -926,13 +932,13 @@
       "ARKQ": "0.84%"
     }
   },
-  "CNTN": {
-    "ticker": "CNTN",
+  "THAR": {
+    "ticker": "THAR",
     "company": "Canton Strategic Holdings",
     "funds": {
-      "ARKSX": "1.69%",
-      "ARKUX": "1.69%",
-      "ARKVX": "1.69%"
+      "ARKSX": "1.35%",
+      "ARKUX": "1.35%",
+      "ARKVX": "1.35%"
     }
   },
   "NET": {
